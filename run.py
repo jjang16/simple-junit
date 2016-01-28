@@ -14,7 +14,7 @@ hamcrest_jar_path = os.path.join(tools_dir, "hamcrest-core-1.3.jar")
 cp_jar_path = os.path.join(tools_dir, "cp-1.2.6.jar")
 
 src_files = glob.glob(src_dir + "/*.java")
-lib_jar_files = glob.glob(tools_dir + "/*.jar")
+lib_jar_files = glob.glob(lib_dir + "/*.jar")
 
 lib_arg = ":".join(lib_jar_files) + ":" + lib_dir
 
